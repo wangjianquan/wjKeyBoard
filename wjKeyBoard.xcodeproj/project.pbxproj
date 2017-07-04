@@ -30,15 +30,6 @@
 		7CCE46FD1EF3DCD60063015D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */; };
 		7CCE47071EF3DD420063015D /* CustomPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */; };
 		7CCE47091EF3DDB30063015D /* CustomPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE47081EF3DDB30063015D /* CustomPhotoCell.swift */; };
-		7CCE47141EF3DEAC0063015D /* compose_photo_preview_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */; };
-		7CCE47151EF3DEAC0063015D /* compose_photo_preview_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */; };
-		7CCE47161EF3DEAC0063015D /* 椭圆-1-拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */; };
-		7CCE47171EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */; };
-		7CCE47181EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */; };
-		7CCE47191EF3DEAC0063015D /* 椭圆-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */; };
-		7CCE471A1EF3DEAC0063015D /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */; };
-		7CCE471B1EF3DEAC0063015D /* 椭圆-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */; };
-		7CCE471C1EF3DEAC0063015D /* ivy_chen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */; };
 		D55A6E1DDC53BCB9774AB70C /* Pods_wjKeyBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806F1C6A878B3E67B2CB7D89 /* Pods_wjKeyBoard.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,15 +60,6 @@
 		7CCE46FE1EF3DCD60063015D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoVC.swift; sourceTree = "<group>"; };
 		7CCE47081EF3DDB30063015D /* CustomPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoCell.swift; sourceTree = "<group>"; };
-		7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_preview_right@2x.png"; sourceTree = "<group>"; };
-		7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_preview_right@3x.png"; sourceTree = "<group>"; };
-		7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝.png"; sourceTree = "<group>"; };
-		7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝@2x.png"; sourceTree = "<group>"; };
-		7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝@3x.png"; sourceTree = "<group>"; };
-		7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1.png"; sourceTree = "<group>"; };
-		7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@2x.png"; sourceTree = "<group>"; };
-		7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@3x.png"; sourceTree = "<group>"; };
-		7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ivy_chen.jpg; sourceTree = "<group>"; };
 		806F1C6A878B3E67B2CB7D89 /* Pods_wjKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wjKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC55010ABBD2DBD290B4A9FD /* Pods-wjKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjKeyBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wjKeyBoard/Pods-wjKeyBoard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,28 +152,10 @@
 				7C7DDD071F04DE660075B267 /* PicPicker */,
 				7CCE46F61EF3DCD60063015D /* Main.storyboard */,
 				7CCE46F91EF3DCD60063015D /* Assets.xcassets */,
-				7CCE47131EF3DEAC0063015D /* resource */,
 				7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */,
 				7CCE46FE1EF3DCD60063015D /* Info.plist */,
 			);
 			path = wjKeyBoard;
-			sourceTree = "<group>";
-		};
-		7CCE47131EF3DEAC0063015D /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */,
-				7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */,
-				7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */,
-				7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */,
-				7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */,
-				7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */,
-				7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */,
-				7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */,
-				7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */,
-			);
-			name = resource;
-			path = ../../CustomKeyboard/CustomKeyboard/resource;
 			sourceTree = "<group>";
 		};
 		7CCE471D1EF3DF240063015D /* Frameworks */ = {
@@ -265,20 +229,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCE471C1EF3DEAC0063015D /* ivy_chen.jpg in Resources */,
-				7CCE47151EF3DEAC0063015D /* compose_photo_preview_right@3x.png in Resources */,
-				7CCE47141EF3DEAC0063015D /* compose_photo_preview_right@2x.png in Resources */,
-				7CCE47161EF3DEAC0063015D /* 椭圆-1-拷贝.png in Resources */,
 				7C7DDDB01F0A42D30075B267 /* Emoticons.bundle in Resources */,
 				7CCE46FD1EF3DCD60063015D /* LaunchScreen.storyboard in Resources */,
-				7CCE47191EF3DEAC0063015D /* 椭圆-1.png in Resources */,
 				7CCE46FA1EF3DCD60063015D /* Assets.xcassets in Resources */,
-				7CCE47171EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png in Resources */,
 				7C7DDDAD1F0A42D30075B267 /* compose_emotion_delete@2x.png in Resources */,
-				7CCE471A1EF3DEAC0063015D /* 椭圆-1@2x.png in Resources */,
-				7CCE47181EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png in Resources */,
 				7C7DDDAE1F0A42D30075B267 /* compose_emotion_delete@3x.png in Resources */,
-				7CCE471B1EF3DEAC0063015D /* 椭圆-1@3x.png in Resources */,
 				7CCE46F81EF3DCD60063015D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
