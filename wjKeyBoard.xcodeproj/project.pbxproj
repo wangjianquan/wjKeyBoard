@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C7DDD0B1F04DEE60075B267 /* PicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD0A1F04DEE60075B267 /* PicCollectionViewCell.swift */; };
+		7C7DDD0D1F04E5020075B267 /* PhotoBrowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD0C1F04E5020075B267 /* PhotoBrowersViewController.swift */; };
+		7C7DDD0F1F04E50F0075B267 /* PicPickerViewContro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD0E1F04E50F0075B267 /* PicPickerViewContro.swift */; };
+		7C7DDD111F04FDC80075B267 /* ComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD101F04FDC70075B267 /* ComposeTextView.swift */; };
+		7C7DDD171F05FDEA0075B267 /* CustomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDD161F05FDEA0075B267 /* CustomToolbar.swift */; };
+		7C7DDDAD1F0A42D30075B267 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA11F0A42D30075B267 /* compose_emotion_delete@2x.png */; };
+		7C7DDDAE1F0A42D30075B267 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA21F0A42D30075B267 /* compose_emotion_delete@3x.png */; };
+		7C7DDDAF1F0A42D30075B267 /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA31F0A42D30075B267 /* EmoticonAttachment.swift */; };
+		7C7DDDB01F0A42D30075B267 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA41F0A42D30075B267 /* Emoticons.bundle */; };
+		7C7DDDB11F0A42D30075B267 /* EmotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA51F0A42D30075B267 /* EmotionCell.swift */; };
+		7C7DDDB21F0A42D30075B267 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA61F0A42D30075B267 /* EmotionViewController.swift */; };
+		7C7DDDB31F0A42D30075B267 /* FindEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA71F0A42D30075B267 /* FindEmoticon.swift */; };
+		7C7DDDB41F0A42D30075B267 /* EmotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDA91F0A42D30075B267 /* EmotionManager.swift */; };
+		7C7DDDB51F0A42D30075B267 /* EmotionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDAA1F0A42D30075B267 /* EmotionModel.swift */; };
+		7C7DDDB61F0A42D30075B267 /* EmotionPackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDAB1F0A42D30075B267 /* EmotionPackageModel.swift */; };
+		7C7DDDB71F0A42D30075B267 /* UITextView - Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DDDAC1F0A42D30075B267 /* UITextView - Extension.swift */; };
+		7CCE46F31EF3DCD60063015D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE46F21EF3DCD60063015D /* AppDelegate.swift */; };
+		7CCE46F51EF3DCD60063015D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE46F41EF3DCD60063015D /* ViewController.swift */; };
+		7CCE46F81EF3DCD60063015D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE46F61EF3DCD60063015D /* Main.storyboard */; };
+		7CCE46FA1EF3DCD60063015D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE46F91EF3DCD60063015D /* Assets.xcassets */; };
+		7CCE46FD1EF3DCD60063015D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */; };
+		7CCE47071EF3DD420063015D /* CustomPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */; };
+		7CCE47091EF3DDB30063015D /* CustomPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE47081EF3DDB30063015D /* CustomPhotoCell.swift */; };
+		7CCE47141EF3DEAC0063015D /* compose_photo_preview_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */; };
+		7CCE47151EF3DEAC0063015D /* compose_photo_preview_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */; };
+		7CCE47161EF3DEAC0063015D /* 椭圆-1-拷贝.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */; };
+		7CCE47171EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */; };
+		7CCE47181EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */; };
+		7CCE47191EF3DEAC0063015D /* 椭圆-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */; };
+		7CCE471A1EF3DEAC0063015D /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */; };
+		7CCE471B1EF3DEAC0063015D /* 椭圆-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */; };
+		7CCE471C1EF3DEAC0063015D /* ivy_chen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */; };
+		D55A6E1DDC53BCB9774AB70C /* Pods_wjKeyBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806F1C6A878B3E67B2CB7D89 /* Pods_wjKeyBoard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4302D4F3AD9D3357B431E3B4 /* Pods-wjKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjKeyBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-wjKeyBoard/Pods-wjKeyBoard.release.xcconfig"; sourceTree = "<group>"; };
+		7C7DDD0A1F04DEE60075B267 /* PicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C7DDD0C1F04E5020075B267 /* PhotoBrowersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowersViewController.swift; sourceTree = "<group>"; };
+		7C7DDD0E1F04E50F0075B267 /* PicPickerViewContro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicPickerViewContro.swift; sourceTree = "<group>"; };
+		7C7DDD101F04FDC70075B267 /* ComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTextView.swift; sourceTree = "<group>"; };
+		7C7DDD161F05FDEA0075B267 /* CustomToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomToolbar.swift; sourceTree = "<group>"; };
+		7C7DDDA11F0A42D30075B267 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		7C7DDDA21F0A42D30075B267 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+		7C7DDDA31F0A42D30075B267 /* EmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
+		7C7DDDA41F0A42D30075B267 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		7C7DDDA51F0A42D30075B267 /* EmotionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionCell.swift; sourceTree = "<group>"; };
+		7C7DDDA61F0A42D30075B267 /* EmotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
+		7C7DDDA71F0A42D30075B267 /* FindEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEmoticon.swift; sourceTree = "<group>"; };
+		7C7DDDA91F0A42D30075B267 /* EmotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionManager.swift; sourceTree = "<group>"; };
+		7C7DDDAA1F0A42D30075B267 /* EmotionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionModel.swift; sourceTree = "<group>"; };
+		7C7DDDAB1F0A42D30075B267 /* EmotionPackageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionPackageModel.swift; sourceTree = "<group>"; };
+		7C7DDDAC1F0A42D30075B267 /* UITextView - Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView - Extension.swift"; sourceTree = "<group>"; };
+		7CCE46EF1EF3DCD60063015D /* wjKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wjKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCE46F21EF3DCD60063015D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCE46F41EF3DCD60063015D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CCE46F71EF3DCD60063015D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCE46F91EF3DCD60063015D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCE46FC1EF3DCD60063015D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CCE46FE1EF3DCD60063015D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoVC.swift; sourceTree = "<group>"; };
+		7CCE47081EF3DDB30063015D /* CustomPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoCell.swift; sourceTree = "<group>"; };
+		7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_preview_right@2x.png"; sourceTree = "<group>"; };
+		7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_preview_right@3x.png"; sourceTree = "<group>"; };
+		7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝.png"; sourceTree = "<group>"; };
+		7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝@2x.png"; sourceTree = "<group>"; };
+		7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1-拷贝@3x.png"; sourceTree = "<group>"; };
+		7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1.png"; sourceTree = "<group>"; };
+		7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@2x.png"; sourceTree = "<group>"; };
+		7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@3x.png"; sourceTree = "<group>"; };
+		7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ivy_chen.jpg; sourceTree = "<group>"; };
+		806F1C6A878B3E67B2CB7D89 /* Pods_wjKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wjKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55010ABBD2DBD290B4A9FD /* Pods-wjKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wjKeyBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wjKeyBoard/Pods-wjKeyBoard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCE46EC1EF3DCD60063015D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55A6E1DDC53BCB9774AB70C /* Pods_wjKeyBoard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBC2C0DF4CAD4EA47945A64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC55010ABBD2DBD290B4A9FD /* Pods-wjKeyBoard.debug.xcconfig */,
+				4302D4F3AD9D3357B431E3B4 /* Pods-wjKeyBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C7DDD071F04DE660075B267 /* PicPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDD101F04FDC70075B267 /* ComposeTextView.swift */,
+				7C7DDD161F05FDEA0075B267 /* CustomToolbar.swift */,
+				7C7DDD0A1F04DEE60075B267 /* PicCollectionViewCell.swift */,
+				7C7DDD0E1F04E50F0075B267 /* PicPickerViewContro.swift */,
+			);
+			path = PicPicker;
+			sourceTree = "<group>";
+		};
+		7C7DDDA01F0A42D30075B267 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDA11F0A42D30075B267 /* compose_emotion_delete@2x.png */,
+				7C7DDDA21F0A42D30075B267 /* compose_emotion_delete@3x.png */,
+				7C7DDDA31F0A42D30075B267 /* EmoticonAttachment.swift */,
+				7C7DDDA41F0A42D30075B267 /* Emoticons.bundle */,
+				7C7DDDA51F0A42D30075B267 /* EmotionCell.swift */,
+				7C7DDDA61F0A42D30075B267 /* EmotionViewController.swift */,
+				7C7DDDA71F0A42D30075B267 /* FindEmoticon.swift */,
+				7C7DDDA81F0A42D30075B267 /* Models */,
+				7C7DDDAC1F0A42D30075B267 /* UITextView - Extension.swift */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		7C7DDDA81F0A42D30075B267 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDA91F0A42D30075B267 /* EmotionManager.swift */,
+				7C7DDDAA1F0A42D30075B267 /* EmotionModel.swift */,
+				7C7DDDAB1F0A42D30075B267 /* EmotionPackageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CCE46E61EF3DCD60063015D = {
+			isa = PBXGroup;
+			children = (
+				7CCE46F11EF3DCD60063015D /* wjKeyBoard */,
+				7CCE46F01EF3DCD60063015D /* Products */,
+				7CCE471D1EF3DF240063015D /* Frameworks */,
+				2CBC2C0DF4CAD4EA47945A64 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCE46F01EF3DCD60063015D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE46EF1EF3DCD60063015D /* wjKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCE46F11EF3DCD60063015D /* wjKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DDDA01F0A42D30075B267 /* Emotion */,
+				7CCE47131EF3DEAC0063015D /* resource */,
+				7CCE46F21EF3DCD60063015D /* AppDelegate.swift */,
+				7CCE46F41EF3DCD60063015D /* ViewController.swift */,
+				7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */,
+				7C7DDD0C1F04E5020075B267 /* PhotoBrowersViewController.swift */,
+				7CCE47081EF3DDB30063015D /* CustomPhotoCell.swift */,
+				7C7DDD071F04DE660075B267 /* PicPicker */,
+				7CCE46F61EF3DCD60063015D /* Main.storyboard */,
+				7CCE46F91EF3DCD60063015D /* Assets.xcassets */,
+				7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */,
+				7CCE46FE1EF3DCD60063015D /* Info.plist */,
+			);
+			path = wjKeyBoard;
+			sourceTree = "<group>";
+		};
+		7CCE47131EF3DEAC0063015D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE470A1EF3DEAC0063015D /* compose_photo_preview_right@2x.png */,
+				7CCE470B1EF3DEAC0063015D /* compose_photo_preview_right@3x.png */,
+				7CCE470C1EF3DEAC0063015D /* 椭圆-1-拷贝.png */,
+				7CCE470D1EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png */,
+				7CCE470E1EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png */,
+				7CCE470F1EF3DEAC0063015D /* 椭圆-1.png */,
+				7CCE47101EF3DEAC0063015D /* 椭圆-1@2x.png */,
+				7CCE47111EF3DEAC0063015D /* 椭圆-1@3x.png */,
+				7CCE47121EF3DEAC0063015D /* ivy_chen.jpg */,
+			);
+			name = resource;
+			path = ../../CustomKeyboard/CustomKeyboard/resource;
+			sourceTree = "<group>";
+		};
+		7CCE471D1EF3DF240063015D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				806F1C6A878B3E67B2CB7D89 /* Pods_wjKeyBoard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCE46EE1EF3DCD60063015D /* wjKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCE47011EF3DCD60063015D /* Build configuration list for PBXNativeTarget "wjKeyBoard" */;
+			buildPhases = (
+				7DD654DD6E3E37DB04A48B93 /* [CP] Check Pods Manifest.lock */,
+				7CCE46EB1EF3DCD60063015D /* Sources */,
+				7CCE46EC1EF3DCD60063015D /* Frameworks */,
+				7CCE46ED1EF3DCD60063015D /* Resources */,
+				6F303B352F54AE1CFAD620B2 /* [CP] Embed Pods Frameworks */,
+				C5E53342E28FECB62E2F08A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wjKeyBoard;
+			productName = wjKeyBoard;
+			productReference = 7CCE46EF1EF3DCD60063015D /* wjKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCE46E71EF3DCD60063015D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WJQ;
+				TargetAttributes = {
+					7CCE46EE1EF3DCD60063015D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A4TJ894JA9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CCE46EA1EF3DCD60063015D /* Build configuration list for PBXProject "wjKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCE46E61EF3DCD60063015D;
+			productRefGroup = 7CCE46F01EF3DCD60063015D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCE46EE1EF3DCD60063015D /* wjKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCE46ED1EF3DCD60063015D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE471C1EF3DEAC0063015D /* ivy_chen.jpg in Resources */,
+				7CCE47151EF3DEAC0063015D /* compose_photo_preview_right@3x.png in Resources */,
+				7CCE47141EF3DEAC0063015D /* compose_photo_preview_right@2x.png in Resources */,
+				7CCE47161EF3DEAC0063015D /* 椭圆-1-拷贝.png in Resources */,
+				7C7DDDB01F0A42D30075B267 /* Emoticons.bundle in Resources */,
+				7CCE46FD1EF3DCD60063015D /* LaunchScreen.storyboard in Resources */,
+				7CCE47191EF3DEAC0063015D /* 椭圆-1.png in Resources */,
+				7CCE46FA1EF3DCD60063015D /* Assets.xcassets in Resources */,
+				7CCE47171EF3DEAC0063015D /* 椭圆-1-拷贝@2x.png in Resources */,
+				7C7DDDAD1F0A42D30075B267 /* compose_emotion_delete@2x.png in Resources */,
+				7CCE471A1EF3DEAC0063015D /* 椭圆-1@2x.png in Resources */,
+				7CCE47181EF3DEAC0063015D /* 椭圆-1-拷贝@3x.png in Resources */,
+				7C7DDDAE1F0A42D30075B267 /* compose_emotion_delete@3x.png in Resources */,
+				7CCE471B1EF3DEAC0063015D /* 椭圆-1@3x.png in Resources */,
+				7CCE46F81EF3DCD60063015D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F303B352F54AE1CFAD620B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wjKeyBoard/Pods-wjKeyBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD654DD6E3E37DB04A48B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E53342E28FECB62E2F08A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wjKeyBoard/Pods-wjKeyBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCE46EB1EF3DCD60063015D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7DDDB21F0A42D30075B267 /* EmotionViewController.swift in Sources */,
+				7C7DDDAF1F0A42D30075B267 /* EmoticonAttachment.swift in Sources */,
+				7CCE47071EF3DD420063015D /* CustomPhotoVC.swift in Sources */,
+				7C7DDDB31F0A42D30075B267 /* FindEmoticon.swift in Sources */,
+				7C7DDDB51F0A42D30075B267 /* EmotionModel.swift in Sources */,
+				7C7DDD171F05FDEA0075B267 /* CustomToolbar.swift in Sources */,
+				7C7DDDB71F0A42D30075B267 /* UITextView - Extension.swift in Sources */,
+				7CCE46F51EF3DCD60063015D /* ViewController.swift in Sources */,
+				7CCE47091EF3DDB30063015D /* CustomPhotoCell.swift in Sources */,
+				7C7DDDB11F0A42D30075B267 /* EmotionCell.swift in Sources */,
+				7CCE46F31EF3DCD60063015D /* AppDelegate.swift in Sources */,
+				7C7DDDB41F0A42D30075B267 /* EmotionManager.swift in Sources */,
+				7C7DDD0B1F04DEE60075B267 /* PicCollectionViewCell.swift in Sources */,
+				7C7DDDB61F0A42D30075B267 /* EmotionPackageModel.swift in Sources */,
+				7C7DDD0F1F04E50F0075B267 /* PicPickerViewContro.swift in Sources */,
+				7C7DDD111F04FDC80075B267 /* ComposeTextView.swift in Sources */,
+				7C7DDD0D1F04E5020075B267 /* PhotoBrowersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CCE46F61EF3DCD60063015D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCE46F71EF3DCD60063015D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCE46FC1EF3DCD60063015D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCE46FF1EF3DCD60063015D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCE47001EF3DCD60063015D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCE47021EF3DCD60063015D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC55010ABBD2DBD290B4A9FD /* Pods-wjKeyBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4TJ894JA9;
+				INFOPLIST_FILE = wjKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landi.wjKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CCE47031EF3DCD60063015D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4302D4F3AD9D3357B431E3B4 /* Pods-wjKeyBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4TJ894JA9;
+				INFOPLIST_FILE = wjKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landi.wjKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCE46EA1EF3DCD60063015D /* Build configuration list for PBXProject "wjKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCE46FF1EF3DCD60063015D /* Debug */,
+				7CCE47001EF3DCD60063015D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCE47011EF3DCD60063015D /* Build configuration list for PBXNativeTarget "wjKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCE47021EF3DCD60063015D /* Debug */,
+				7CCE47031EF3DCD60063015D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCE46E71EF3DCD60063015D /* Project object */;
+}
