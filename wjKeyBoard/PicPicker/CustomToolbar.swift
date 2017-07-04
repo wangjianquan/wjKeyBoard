@@ -26,9 +26,15 @@ class CustomToolbar: UIView {
             for i in 0..<imageNames.count {
               let btn = UIButton(frame: CGRect(x: (btnWH + margin)*i + margin, y: 0, width: btnWH, height: Int(self.bounds.size.height)))
 
-                btn.setImage(UIImage(named:imageNames[i]), for: .normal)
-                 btn.setImage(UIImage(named:imageNames[i]+"_highlighted"), for: .selected)
+                
                 btn.tag = i
+                btn.setImage(UIImage(named:imageNames[i]), for: .normal)
+                if btn.tag == 3 {
+                   btn.setImage(UIImage(named:imageNames[i]+"_highlighted"), for: .selected)
+                }
+               
+                btn.setImage(UIImage(named:imageNames[i]+"_highlighted"), for: .highlighted)
+                
                 btn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
                 self.addSubview(btn)
             }

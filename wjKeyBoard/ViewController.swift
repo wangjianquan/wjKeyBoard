@@ -139,6 +139,14 @@ extension ViewController{
             
             break;
         case 4:
+            
+            if customTextView.inputView == emoticonVc.view{
+                customTextView.resignFirstResponder()
+                customTextView.inputView = nil
+                customTextView.becomeFirstResponder()
+            }
+           
+            
             break;
             
         default:
