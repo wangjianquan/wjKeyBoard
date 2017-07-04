@@ -162,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				7C7DDDA01F0A42D30075B267 /* Emotion */,
-				7CCE47131EF3DEAC0063015D /* resource */,
 				7CCE46F21EF3DCD60063015D /* AppDelegate.swift */,
 				7CCE46F41EF3DCD60063015D /* ViewController.swift */,
 				7CCE47061EF3DD420063015D /* CustomPhotoVC.swift */,
@@ -171,6 +170,7 @@
 				7C7DDD071F04DE660075B267 /* PicPicker */,
 				7CCE46F61EF3DCD60063015D /* Main.storyboard */,
 				7CCE46F91EF3DCD60063015D /* Assets.xcassets */,
+				7CCE47131EF3DEAC0063015D /* resource */,
 				7CCE46FB1EF3DCD60063015D /* LaunchScreen.storyboard */,
 				7CCE46FE1EF3DCD60063015D /* Info.plist */,
 			);
